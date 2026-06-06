@@ -28,34 +28,36 @@ const Navbar = () => {
   };
 
   return (
-    <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="container navbar-container">
-        <Link to="/" className="navbar-logo">
-          <img src="/assets/logo.png" alt="Right Hand Logo" />
-        </Link>
+    <>
+      <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+        <div className="container navbar-container">
+          <Link to="/" className="navbar-logo">
+            <img src="/assets/logo.png" alt="Right Hand Logo" />
+          </Link>
 
-        {/* Desktop Navigation */}
-        <nav className="navbar-links d-none-mobile">
-          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
-          <Link to="/features" className={location.pathname === '/features' ? 'active' : ''}>Features</Link>
-          <Link to="/roles" className={location.pathname === '/roles' ? 'active' : ''}>User Roles</Link>
-          <Link to="/workflow" className={location.pathname === '/workflow' ? 'active' : ''}>How It Works</Link>
-        </nav>
+          {/* Desktop Navigation */}
+          <nav className="navbar-links d-none-mobile">
+            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
+            <Link to="/features" className={location.pathname === '/features' ? 'active' : ''}>Features</Link>
+            <Link to="/roles" className={location.pathname === '/roles' ? 'active' : ''}>User Roles</Link>
+            <Link to="/workflow" className={location.pathname === '/workflow' ? 'active' : ''}>How It Works</Link>
+          </nav>
 
-        <div className="navbar-actions d-none-mobile">
-          <Link to="/demo" className="btn btn-secondary" style={{ marginRight: '1rem', border: 'none', boxShadow: 'none' }}>Log In</Link>
-          <Link to="/demo" className="btn btn-primary">Request Demo</Link>
+          <div className="navbar-actions d-none-mobile">
+            <Link to="/demo" className="btn btn-secondary" style={{ marginRight: '1rem', border: 'none', boxShadow: 'none' }}>Log In</Link>
+            <Link to="/demo" className="btn btn-primary">Request Demo</Link>
+          </div>
+
+          {/* Mobile Toggle */}
+          <button 
+            className="mobile-menu-btn d-flex-mobile" 
+            onClick={toggleMobileMenu}
+            aria-label="Toggle menu"
+          >
+            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
         </div>
-
-        {/* Mobile Toggle */}
-        <button 
-          className="mobile-menu-btn d-flex-mobile" 
-          onClick={toggleMobileMenu}
-          aria-label="Toggle menu"
-        >
-          {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-        </button>
-      </div>
+      </header>
 
       {/* Full Screen Mobile Menu */}
       <div className={`mobile-menu-overlay ${isMobileMenuOpen ? 'open' : ''}`}>
@@ -71,7 +73,7 @@ const Navbar = () => {
           <Link to="/demo" className="btn btn-secondary" style={{ width: '100%' }}>Book Consultation</Link>
         </div>
       </div>
-    </header>
+    </>
   );
 };
 
