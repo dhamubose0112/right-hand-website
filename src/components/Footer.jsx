@@ -33,6 +33,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <div className="footer-bottom-notice" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', marginTop: '2rem', paddingTop: '1.5rem', textAlign: 'center', fontSize: '0.8rem', opacity: 0.7, marginBottom: '1rem' }}>
+          <p>"We respect your privacy. Personal information collected through this website and platform is processed in accordance with our Privacy Policy and applicable UAE data protection laws. By using our services, you agree to such processing."</p>
+        </div>
         
         <div className="footer-bottom" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <p>Copyright &copy; {new Date().getFullYear()} Right Hand. All rights reserved.</p>
