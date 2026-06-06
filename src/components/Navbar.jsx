@@ -44,7 +44,6 @@ const Navbar = () => {
           </nav>
 
           <div className="navbar-actions d-none-mobile">
-            <Link to="/demo" className="btn btn-secondary" style={{ marginRight: '1rem', border: 'none', boxShadow: 'none' }}>Log In</Link>
             <Link to="/demo" className="btn btn-primary">Request Demo</Link>
           </div>
 
