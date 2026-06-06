@@ -14,7 +14,7 @@ const Terms = () => {
         <div className="container max-w-4xl mx-auto premium-card">
           <div className="prose text-left">
             
-            <h2 className="text-h3 mb-4">1. ACCEPTANCE OF TERMS</h2>
+            <h2 className="text-h3 mt-10 mb-6">1. ACCEPTANCE OF TERMS</h2>
             <p className="text-body mb-4">Welcome to [COMPANY NAME] ("Company", "Platform", "we", "our", or "us").</p>
             <p className="text-body mb-4">These Terms & Conditions ("Terms") govern access to and use of:</p>
             <ul className="text-body mb-4 list-disc pl-5">
@@ -28,7 +28,7 @@ const Terms = () => {
             <p className="text-body mb-4">By accessing or using the Platform, you agree to be legally bound by these Terms.</p>
             <p className="text-body mb-8 font-semibold">If you do not agree, you must discontinue use of the Platform.</p>
 
-            <h2 className="text-h3 mb-4">2. COMPANY INFORMATION</h2>
+            <h2 className="text-h3 mt-10 mb-6">2. COMPANY INFORMATION</h2>
             <ul className="text-body mb-8 list-none">
               <li><strong>Company Name:</strong> [COMPANY NAME]</li>
               <li><strong>Jurisdiction:</strong> Sharjah, United Arab Emirates</li>
@@ -37,7 +37,7 @@ const Terms = () => {
               <li><strong>Website:</strong> [WEBSITE URL]</li>
             </ul>
 
-            <h2 className="text-h3 mb-4">3. PLATFORM DESCRIPTION</h2>
+            <h2 className="text-h3 mt-10 mb-6">3. PLATFORM DESCRIPTION</h2>
             <p className="text-body mb-4">The Platform provides digital tools for:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Residential construction supervision</li>
@@ -53,7 +53,7 @@ const Terms = () => {
             <p className="text-body mb-4">The Platform acts solely as a technology service provider.</p>
             <p className="text-body mb-8 font-semibold">The Company is not a contractor, consultant, architect, engineer, project manager, supplier, developer, or construction professional.</p>
 
-            <h2 className="text-h3 mb-4">4. USER ELIGIBILITY</h2>
+            <h2 className="text-h3 mt-10 mb-6">4. USER ELIGIBILITY</h2>
             <p className="text-body mb-4">Users must:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Be at least 18 years old</li>
@@ -63,7 +63,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8">The Company reserves the right to suspend or terminate accounts that violate these Terms.</p>
 
-            <h2 className="text-h3 mb-4">5. USER ACCOUNTS</h2>
+            <h2 className="text-h3 mt-10 mb-6">5. USER ACCOUNTS</h2>
             <p className="text-body mb-4">Users are responsible for:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Maintaining account confidentiality</li>
@@ -73,7 +73,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8">Users remain responsible for all activities conducted under their account.</p>
 
-            <h2 className="text-h3 mb-4">6. USER ROLES</h2>
+            <h2 className="text-h3 mt-10 mb-6">6. USER ROLES</h2>
             <p className="text-body mb-4">The Platform may support:</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div>
@@ -119,7 +119,7 @@ const Terms = () => {
               </div>
             </div>
 
-            <h2 className="text-h3 mb-4">7. PROJECT DATA RESPONSIBILITY</h2>
+            <h2 className="text-h3 mt-10 mb-6">7. PROJECT DATA RESPONSIBILITY</h2>
             <p className="text-body mb-4">Users acknowledge that:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Project information is user-generated.</li>
@@ -130,7 +130,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8 font-semibold">Users remain solely responsible for project decisions.</p>
 
-            <h2 className="text-h3 mb-4">8. MILESTONE APPROVALS</h2>
+            <h2 className="text-h3 mt-10 mb-6">8. MILESTONE APPROVALS</h2>
             <p className="text-body mb-4">Milestone approvals represent user decisions only. Approval of a milestone does not constitute:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Engineering certification</li>
@@ -141,7 +141,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8">Users should obtain independent professional advice where necessary.</p>
 
-            <h2 className="text-h3 mb-4">9. RFQ AND PROCUREMENT DISCLAIMER</h2>
+            <h2 className="text-h3 mt-10 mb-6">9. RFQ AND PROCUREMENT DISCLAIMER</h2>
             <p className="text-body mb-4">The Platform facilitates quotation exchange only. The Company does not:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Guarantee supplier performance</li>
@@ -153,7 +153,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8 font-semibold">Any procurement relationship exists solely between participating parties.</p>
 
-            <h2 className="text-h3 mb-4">10. SUPPLIER RESPONSIBILITIES</h2>
+            <h2 className="text-h3 mt-10 mb-6">10. SUPPLIER RESPONSIBILITIES</h2>
             <p className="text-body mb-4">Suppliers represent and warrant that:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Submitted information is accurate.</li>
@@ -164,7 +164,7 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8">The Company may suspend suppliers providing misleading information.</p>
 
-            <h2 className="text-h3 mb-4">11. COMMUNICATIONS & CHAT</h2>
+            <h2 className="text-h3 mt-10 mb-6">11. COMMUNICATIONS & CHAT</h2>
             <p className="text-body mb-4">The Platform may provide communication tools including: Owner ↔ Project Manager chat, Supplier ↔ Project Manager chat, Notifications, Comments, and Messaging systems.</p>
             <p className="text-body mb-4">Users agree:</p>
             <ul className="text-body mb-4 list-disc pl-5">
@@ -175,11 +175,11 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8">The Company reserves the right to remove inappropriate content.</p>
 
-            <h2 className="text-h3 mb-4">12. USER CONTENT</h2>
+            <h2 className="text-h3 mt-10 mb-6">12. USER CONTENT</h2>
             <p className="text-body mb-4">Users retain ownership of content uploaded to the Platform including: Photos, Videos, Drawings, RFQs, Quotations, and Project documents.</p>
             <p className="text-body mb-8">By uploading content, users grant the Company a non-exclusive license to: Store, Process, Display, Backup, and Transmit such content solely for operation of the Platform.</p>
 
-            <h2 className="text-h3 mb-4">13. PROHIBITED USES</h2>
+            <h2 className="text-h3 mt-10 mb-6">13. PROHIBITED USES</h2>
             <p className="text-body mb-4">Users shall not:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Upload unlawful content</li>
@@ -193,27 +193,27 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8 font-semibold">Violation may result in immediate account termination.</p>
 
-            <h2 className="text-h3 mb-4">14. INTELLECTUAL PROPERTY</h2>
+            <h2 className="text-h3 mt-10 mb-6">14. INTELLECTUAL PROPERTY</h2>
             <p className="text-body mb-4">All Platform intellectual property including: Software, Design, Branding, User interface, Databases, and Documentation remains the exclusive property of the Company or its licensors.</p>
             <p className="text-body mb-8">No ownership rights are transferred to users.</p>
 
-            <h2 className="text-h3 mb-4">15. FEES AND PAYMENTS</h2>
+            <h2 className="text-h3 mt-10 mb-6">15. FEES AND PAYMENTS</h2>
             <p className="text-body mb-4">Where applicable: Subscription fees, Platform fees, Premium features, and Service charges shall be communicated separately.</p>
             <p className="text-body mb-8">All fees are non-refundable unless otherwise stated in writing. Future commercial services may be subject to additional agreements.</p>
 
-            <h2 className="text-h3 mb-4">16. THIRD-PARTY SERVICES</h2>
+            <h2 className="text-h3 mt-10 mb-6">16. THIRD-PARTY SERVICES</h2>
             <p className="text-body mb-4">The Platform may integrate with: Cloud providers, Email providers, Communication services, and Analytics tools.</p>
             <p className="text-body mb-8">The Company is not responsible for third-party service interruptions.</p>
 
-            <h2 className="text-h3 mb-4">17. AVAILABILITY OF SERVICE</h2>
+            <h2 className="text-h3 mt-10 mb-6">17. AVAILABILITY OF SERVICE</h2>
             <p className="text-body mb-4">The Company aims to maintain service availability but does not guarantee uninterrupted operation.</p>
             <p className="text-body mb-8">The Platform may experience: Maintenance periods, Updates, Downtime, and Technical failures without liability.</p>
 
-            <h2 className="text-h3 mb-4">18. DISCLAIMER OF WARRANTIES</h2>
+            <h2 className="text-h3 mt-10 mb-6">18. DISCLAIMER OF WARRANTIES</h2>
             <p className="text-body mb-4">The Platform is provided on an "AS IS" and "AS AVAILABLE" basis.</p>
             <p className="text-body mb-8">The Company makes no warranty regarding: Accuracy, Completeness, Reliability, Suitability, Availability, and Performance of the Platform.</p>
 
-            <h2 className="text-h3 mb-4">19. LIMITATION OF LIABILITY</h2>
+            <h2 className="text-h3 mt-10 mb-6">19. LIMITATION OF LIABILITY</h2>
             <p className="text-body mb-4">To the maximum extent permitted by law, the Company shall not be liable for:</p>
             <ul className="text-body mb-4 list-disc pl-5">
               <li>Construction defects</li>
@@ -229,24 +229,24 @@ const Terms = () => {
             </ul>
             <p className="text-body mb-8 font-semibold">The Company's aggregate liability shall not exceed the fees paid to the Company during the preceding twelve (12) months.</p>
 
-            <h2 className="text-h3 mb-4">20. INDEMNITY</h2>
+            <h2 className="text-h3 mt-10 mb-6">20. INDEMNITY</h2>
             <p className="text-body mb-8">Users agree to indemnify and hold harmless the Company from claims arising from: User content, Project decisions, Procurement decisions, Supplier relationships, Regulatory violations, and Breach of these Terms.</p>
 
-            <h2 className="text-h3 mb-4">21. DATA PROTECTION</h2>
+            <h2 className="text-h3 mt-10 mb-6">21. DATA PROTECTION</h2>
             <p className="text-body mb-8">Use of personal information is governed by the Privacy Policy available on the Platform. Users agree to the collection and processing of information as described therein.</p>
 
-            <h2 className="text-h3 mb-4">22. TERMINATION</h2>
+            <h2 className="text-h3 mt-10 mb-6">22. TERMINATION</h2>
             <p className="text-body mb-4">The Company may suspend or terminate access at any time where: Terms are violated, Fraud is suspected, Security concerns arise, or Legal obligations require action.</p>
             <p className="text-body mb-8">Termination does not relieve users of prior obligations.</p>
 
-            <h2 className="text-h3 mb-4">23. GOVERNING LAW</h2>
+            <h2 className="text-h3 mt-10 mb-6">23. GOVERNING LAW</h2>
             <p className="text-body mb-4">These Terms shall be governed by and construed in accordance with the laws of the United Arab Emirates.</p>
             <p className="text-body mb-8">Any dispute shall be subject to the exclusive jurisdiction of the competent courts of Sharjah, UAE, unless otherwise required by applicable law.</p>
 
-            <h2 className="text-h3 mb-4">24. MODIFICATIONS</h2>
+            <h2 className="text-h3 mt-10 mb-6">24. MODIFICATIONS</h2>
             <p className="text-body mb-8">The Company may amend these Terms at any time. Updated versions will be posted on the Platform. Continued use constitutes acceptance of the revised Terms.</p>
 
-            <h2 className="text-h3 mb-4">25. CONTACT INFORMATION</h2>
+            <h2 className="text-h3 mt-10 mb-6">25. CONTACT INFORMATION</h2>
             <ul className="text-body mb-8 list-none">
               <li><strong>Company:</strong> [COMPANY NAME]</li>
               <li><strong>Email:</strong> [EMAIL]</li>
